@@ -7,4 +7,16 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Page::index');
 
-$routes->get('/books/(:segment)', 'Books::detail/$1');
+$routes->get('/books/index', 'Books::index');
+
+$routes->get('/books/create', 'Books::create');
+
+$routes->delete('/books/(:num)', 'Books::delete/$1');
+
+$routes->post('save', 'Books::save');
+
+//$routes->get('/', 'Page::contact');
+
+$routes->get('/books/(:any)', 'Books::detail/$1');
+
+//$routes->setAutoRoute(true);
