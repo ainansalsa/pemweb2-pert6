@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 04 Apr 2024 pada 14.47
+-- Waktu pembuatan: 06 Bulan Mei 2024 pada 14.30
 -- Versi server: 10.4.32-MariaDB
--- Versi PHP: 8.0.30
+-- Versi PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -29,11 +29,11 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `books` (
   `id` int(11) NOT NULL,
-  `judul` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `slug` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `penulis` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `penerbit` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `sampul` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `judul` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `penulis` varchar(255) NOT NULL,
+  `penerbit` varchar(255) NOT NULL,
+  `sampul` varchar(255) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -43,8 +43,29 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `judul`, `slug`, `penulis`, `penerbit`, `sampul`, `created_at`, `updated_at`) VALUES
-(1, 'Tereliye-Bulan', 'tereliye-bulan', 'Tereliye', 'Darwis', 'Tereliye-Bulan.jpg', '2024-04-04 14:45:24', '2024-04-04 14:45:24'),
-(2, 'Tereliye-Bumi', 'tereliye-bumi', 'Tereliye', 'Darwis', 'Tereliye-Bumi.jpg', '2024-04-04 14:45:24', '2024-04-04 14:45:24');
+(1, 'Abu Nawas', 'abunawas', 'Abu Nawas', 'Gramedia', 'AbuNawas.jpg', '2024-03-26 13:59:59', '2024-03-26 13:59:59'),
+(2, 'Al-Khwarizmi', 'al', 'Corona Brezina', 'Gramedia', 'Al-Khwarizmi.jpg', '2024-03-26 22:31:34', '2024-03-26 22:31:34'),
+(7, 'Awan', 'awan', 'Bulan', 'Bintang', 'Semesta', '2024-05-06 12:22:32', '2024-05-06 12:22:32');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indeks untuk tabel `books`
+--
+ALTER TABLE `books`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
+--
+
+--
+-- AUTO_INCREMENT untuk tabel `books`
+--
+ALTER TABLE `books`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
