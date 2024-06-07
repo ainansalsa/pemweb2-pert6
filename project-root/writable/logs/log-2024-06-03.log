@@ -1,0 +1,116 @@
+INFO - 2024-06-03 04:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:32:38 --> CSRF token verified.
+INFO - 2024-06-03 04:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-03 04:58:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 04:58:23')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:01:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:01:46')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:17:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:17:10')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:20:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:20:38')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:22:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:22:50')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:25:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:25:26')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:28:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:28:30')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:29:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:29:07')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-03 05:31:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':created_at, '2024-06-03 05:31:43')' at line 1 in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
