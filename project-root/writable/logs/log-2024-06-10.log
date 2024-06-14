@@ -1,0 +1,114 @@
+INFO - 2024-06-10 04:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 04:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-10 04:28:28 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(962): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Database\Seeds\PenulisSeeder.php(39): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+ 5 SYSTEMPATH\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\PenulisSeeder')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 7 SYSTEMPATH\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2024-06-10 04:28:28 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "address" is deprecated, use "address()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "address" is deprecated, use "address()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(962): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'address', 'address')
+ 3 APPPATH\Database\Seeds\PenulisSeeder.php(40): Faker\Generator->__get('address')
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+ 5 SYSTEMPATH\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\PenulisSeeder')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 7 SYSTEMPATH\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2024-06-10 04:28:28 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "email" is deprecated, use "email()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "email" is deprecated, use "email()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(962): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'email', 'email')
+ 3 APPPATH\Database\Seeds\PenulisSeeder.php(41): Faker\Generator->__get('email')
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+ 5 SYSTEMPATH\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\PenulisSeeder')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 7 SYSTEMPATH\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2024-06-10 04:28:28 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "phoneNumber" is deprecated, use "phoneNumber()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "phoneNumber" is deprecated, use "phoneNumber()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(962): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'phoneNumber', 'phoneNumber')
+ 3 APPPATH\Database\Seeds\PenulisSeeder.php(42): Faker\Generator->__get('phoneNumber')
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+ 5 SYSTEMPATH\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\PenulisSeeder')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 7 SYSTEMPATH\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2024-06-10 04:28:28 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\app\Database\Seeds\PenulisSeeder.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\PenulisSeeder->run()
+#6 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\Users\PC04\Downloads\pemweb2-pert6-main\pemweb2-pert6-main\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2024-06-10 06:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:06:05 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Penulis.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('penulis/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('penulis/')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('penulis/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\PC04\\Downloads\\pemweb2-pert6-main\\pemweb2-pert6-main\\project-root\\public\\index.php')
+INFO - 2024-06-10 06:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:06:19 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Penulis.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('penulis/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('penulis/')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('penulis/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\PC04\\Downloads\\pemweb2-pert6-main\\pemweb2-pert6-main\\project-root\\public\\index.php')
+INFO - 2024-06-10 06:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:25:02 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Penulis.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('penulis/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('penulis/')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('penulis/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\PC04\\Downloads\\pemweb2-pert6-main\\pemweb2-pert6-main\\project-root\\public\\index.php')
+INFO - 2024-06-10 06:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:27:05 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Penulis.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('penulis/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('penulis/')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('penulis/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\PC04\\Downloads\\pemweb2-pert6-main\\pemweb2-pert6-main\\project-root\\public\\index.php')
+INFO - 2024-06-10 06:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:27:27 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Penulis.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute('penulis/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute('penulis/')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('penulis/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\PC04\\Downloads\\pemweb2-pert6-main\\pemweb2-pert6-main\\project-root\\public\\index.php')

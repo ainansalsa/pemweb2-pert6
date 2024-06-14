@@ -21,8 +21,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
                     <a class="nav-link" aria-current="books" href="/books/">Daftar Buku</a>
+                    <a class="nav-link" aria-current="penulis" href="/penulis/">Daftar Penulis</a>
                     <a class="nav-link" aria-current="about" href="/page/about">About</a>
                     <a class="nav-link" aria-current="contact" href="/page/contact">Contact</a>
                 </div>
